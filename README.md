@@ -2,14 +2,14 @@
 
 **UrbanEV** is a discrete event simulation project that models the capacity and resilience of public electric vehicle (EV) charging infrastructure. Using empirical data from Shenzhen, China, the project simulates charging station behavior to predict network performance under various adoption scenarios.
 
-## 📌 Project Overview
+## Project Overview
 
 This study utilizes the **UrbanEV** dataset (Sep 2022 – Feb 2023) to model charging behavior across 1,682 public stations. By using **Python** and **SimPy**, the project transforms historical occupancy and duration data into a stochastic simulation to evaluate:
 * **Grid Resilience:** How well the current infrastructure handles demand.
 * **Stress Testing:** The impact of mass EV adoption and reduced home charging availability on public stations.
 * **Service Quality:** Metrics on successful charging sessions versus "lost customers" (failed sessions due to full capacity).
 
-## 🚀 Key Features
+## Key Features
 
 * **Data-Driven Simulation:** Calibrated using real-world occupancy (arrival rates) and session duration (service times) data.
 * **Stochastic Modeling:**
@@ -17,7 +17,7 @@ This study utilizes the **UrbanEV** dataset (Sep 2022 – Feb 2023) to model cha
     * **Service Times:** Modeled using a Gaussian distribution based on actual charging durations.
 * **Scenario Analysis:** Compares current sustainable usage against a critical future stress test.
 
-## 📊 Scenarios Modeled
+## Scenarios Modeled
 
 The simulation compares two distinct grid load environments:
 
@@ -26,7 +26,7 @@ The simulation compares two distinct grid load environments:
 | **A: Sustainable Present** | Represents the current "Early Adopter" phase where most users have private garages. | **12%** EV Adoption<br>**82%** Home Charging |
 | **B: Critical Future** | A stress test simulating mass adoption in dense urban areas with limited private infrastructure. | **70%** EV Adoption<br>**10%** Home Charging |
 
-## 🛠️ Technologies & Requirements
+## Technologies & Requirements
 
 The project is built using Python. Key libraries include:
 
